@@ -1,0 +1,8 @@
+Hi <%= @user.name %>,
+
+AC here. Thanks so much for signing up for my website! You're just moments away from access to endless innovative website features and functionalities! Please click this link to complete your account's activation:
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
+
+Cordially,
+AC
