@@ -2,9 +2,10 @@
 
     <h1>Help</h1>
     <p>
-      Get help on the Ruby on Rails Tutorial at the
-      <a href="http://www.railstutorial.org/#help">Rails Tutorial help section</a>.
-      To get help on this sample app, see the
-      <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-      book</a>.
+      This website implements a basic Twitter-like blog. Site visitors need to
+      <%= link_to "sign up", signup_path %> and verify their email addresses before
+      being allowed to write post, view other users' posts, and follow other users.
+      Each user has a unique news feed that is filled with his or her own posts
+      and all posts from users he or she is following. A users may request that a
+      password-reset link is sent to his or her verified email address.
     </p>

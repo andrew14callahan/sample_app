@@ -1,12 +1,12 @@
-<h1>AC's Sample Website</h1>
+<h1>Andrew's Sample Website</h1>
 
 <p>Hi <%= @user.name %>,</p>
 
 <p>
-  AC here. Thanks so much for signing up for my website! You're just moments away from access to endless innovative website features and functionalities! Please click this link to complete your account's activation:
+  Thanks so much for signing up for my website! Click the link below to complete your account's activation and get started:
 </p>
 
 <p><%= link_to "Activate", edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
 
-<p>Cordially,</p>
-<p>AC</p>
+<p>Cheers!</p>
+<p>Andrew</p>
